@@ -4,7 +4,7 @@ branches:
  only:
   - master
 install:
- - npm intall vuepress -g
+ - npm install vuepress -g
 script:
   - vuepress build
 
