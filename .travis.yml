@@ -12,7 +12,7 @@ after_script:
  - cd .vuepress/dist
  - git init 
  - git config user.name "Leemagination"
- - git config user.email "328445543@qq.com"
+ - git config user.email "${email}"
  - git add .
  - git commit -m "travis-ci build"
  - git push -f https://${GH_TOKEN}@github.com/Leemagination/projectIntroduction.git master:gh-pages

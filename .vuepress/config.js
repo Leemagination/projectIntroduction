@@ -1,6 +1,5 @@
 module.exports = {
-    title: 'Hello VuePress',
-    description: 'Just playing around',
+    title: '嘿嘿嘿',
     base:'/projectIntroduction/', 
     themeConfig:{
         search: false,
@@ -38,15 +37,15 @@ module.exports = {
                 '/wsp/kpi',
                 '/wsp/printConfig',
              ]
-        },
-        {title:'ewms系统',
+            },
+            {title:'ewms系统',
         path:'/ewms/',
         collapsable: false,
         children: [ 
             '/ewms/echart',
             '/ewms/print'
-         ]
-    }
-          ]
+             ]
+            }
+        ]
     }
   }
