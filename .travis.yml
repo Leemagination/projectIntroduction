@@ -1,0 +1,18 @@
+language: node_js
+node_js: stable
+branches:
+ only:
+  - master
+install:
+ - npm vuepress 
+script:
+  - vuepress build
+
+after_script:
+ - cd .vuepress/dist
+ - git init 
+ - git config user.name "Leemagination"
+ - git config user.email "328445543@qq.com"
+ - git add .
+ - git commit -m "travis-ci build"
+ - git push -f https://${GH_TOKEN}@github.com/Leemagination/projectIntroduction.git master:gh-pages
