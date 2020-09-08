@@ -1,51 +1,46 @@
 module.exports = {
-    title: '嘿嘿嘿',
-    base:'/projectIntroduction/', 
-    themeConfig:{
+    title: '项目介绍',
+    base: '/projectIntroduction/',
+    themeConfig: {
         search: false,
         sidebar: [
-            {title:'主页',
-            path:'/',sidebarDepth:0
+            {
+                title: '概述',
+                path: '/'
             },
             {
-                title: '微信小程序', 
-                path: '/miniprogram/'
+                title: '绩效项目',
+                path: '/kpi',
+                collapsable: false
             },
             {
-                title: '开放平台',
-                path:'/openPlatform/',
-                collapsable: false,
-                children: [ 
-                    '/openPlatform/i18n',
-                 ]
+                title: '国际化',
+                path: '/i18n',
+                collapsable: false
             },
-            {title:'wms系统',
-                path:'/wms/',
-                collapsable: false,
-                children: [ 
-                    '/wms/authority',
-                    '/wms/i18n',
-                    '/wms/pageGenerator',
-                 ]
+            {
+                title: '微信提货小程序',
+                path: '/miniprogram'
             },
-            {title:'wsp系统',
-            path:'/wsp/',
-            collapsable: false,
-            children: [ 
-                '/wsp/dataBaseSync',
-                '/wsp/i18nManagement',
-                '/wsp/kpi',
-                '/wsp/printConfig',
-             ]
+            {
+                title: '代码模版生成',
+                path: '/pageGenerator',
+                collapsable: false
             },
-            {title:'ewms系统',
-        path:'/ewms/',
-        collapsable: false,
-        children: [ 
-            '/ewms/echart',
-            '/ewms/print'
-             ]
+            {
+                title: '打印项目',
+                path: '/print',
+                collapsable: false
+            },
+            {
+                title: '权限控制',
+                path: '/authority'
+            },
+            {
+                title: '图表',
+                path: '/echart',
+                collapsable: false
             }
         ]
     }
-  }
+}
