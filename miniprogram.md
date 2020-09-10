@@ -23,3 +23,5 @@ sidebarDepth: 0
 ## 个人职责
    小程序登录模块、请求拦截器、全局样式、司机模块。
 ## 项目截图
+![img1](https://raw.githubusercontent.com/Leemagination/projectIntroduction/master/images/mini1.png)
+![img2](https://raw.githubusercontent.com/Leemagination/projectIntroduction/master/images/mini2.png)
