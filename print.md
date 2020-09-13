@@ -23,7 +23,7 @@ sidebarDepth: 0
 * 可自定义参数让后端生成对应pdf
 :::
 :::danger 缺点
-* 浏览器完全问题,打印时会弹出打印对话框无法避免
+* 浏览器安全问题,打印时会弹出打印对话框无法避免
 * 浏览器打印弹框没有用户点击确认或取消的回调函数
 :::
 ![img2](https://raw.githubusercontent.com/Leemagination/projectIntroduction/master/images/print2.png) 

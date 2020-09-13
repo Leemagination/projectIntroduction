@@ -6,7 +6,7 @@ module.exports = {
         sidebar: [
             {
                 title: '概述',
-                path: '/'
+                path: '/intro'
             },
             {
                 title: '绩效项目',
@@ -35,11 +35,6 @@ module.exports = {
             {
                 title: '权限控制',
                 path: '/authority'
-            },
-            {
-                title: '图表',
-                path: '/echart',
-                collapsable: false
             }
         ]
     }
