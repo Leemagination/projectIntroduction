@@ -6,7 +6,7 @@ module.exports = {
         sidebar: [
             {
                 title: '概述',
-                path: '/intro'
+                path: '/'
             },
             {
                 title: '绩效项目',
