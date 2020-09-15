@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>页面模版生成 | 项目介绍</title>
+    <meta name="generator" content="VuePress 1.5.4">
+    
+    <meta name="description" content="">
+    <link rel="preload" href="/projectIntroduction/assets/css/0.styles.4ba55092.css" as="style"><link rel="preload" href="/projectIntroduction/assets/js/app.36ced9f6.js" as="script"><link rel="preload" href="/projectIntroduction/assets/js/2.e1411989.js" as="script"><link rel="preload" href="/projectIntroduction/assets/js/10.2c1e614e.js" as="script"><link rel="prefetch" href="/projectIntroduction/assets/js/11.a68344a4.js"><link rel="prefetch" href="/projectIntroduction/assets/js/3.a3e89d95.js"><link rel="prefetch" href="/projectIntroduction/assets/js/4.43f80d55.js"><link rel="prefetch" href="/projectIntroduction/assets/js/5.d9d8b06c.js"><link rel="prefetch" href="/projectIntroduction/assets/js/6.2682001a.js"><link rel="prefetch" href="/projectIntroduction/assets/js/7.52ce43b3.js"><link rel="prefetch" href="/projectIntroduction/assets/js/8.d0e959a7.js"><link rel="prefetch" href="/projectIntroduction/assets/js/9.802122f0.js">
+    <link rel="stylesheet" href="/projectIntroduction/assets/css/0.styles.4ba55092.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/projectIntroduction/" class="home-link router-link-active"><!----> <span class="site-name">项目介绍</span></a> <div class="links"><!----> <!----></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><!---->  <ul class="sidebar-links"><li><a href="/projectIntroduction/" aria-current="page" class="sidebar-link">概述</a></li><li><a href="/projectIntroduction/kpi.html" class="sidebar-link">绩效项目</a></li><li><a href="/projectIntroduction/i18n.html" class="sidebar-link">国际化</a></li><li><a href="/projectIntroduction/miniprogram.html" class="sidebar-link">微信提货小程序</a></li><li><a href="/projectIntroduction/pageGenerator.html" aria-current="page" class="active sidebar-link">代码模版生成</a></li><li><a href="/projectIntroduction/print.html" class="sidebar-link">打印项目</a></li><li><a href="/projectIntroduction/authority.html" class="sidebar-link">权限控制</a></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="页面模版生成"><a href="#页面模版生成" class="header-anchor">#</a> 页面模版生成</h1> <h2 id="项目背景"><a href="#项目背景" class="header-anchor">#</a> 项目背景</h2> <p>在后台管理系统中,业务页面大致相似,都拥有搜索栏和表格,开发出一个能快速生成模版的功能能极大提升开发效率。</p> <h2 id="使用技术"><a href="#使用技术" class="header-anchor">#</a> 使用技术</h2> <div class="language- extra-class"><pre><code>@angular-devkit/schematics-cli  
+</code></pre></div><p>angular-cli拥有创建模版的<a href="https://angular.cn/cli/generate" target="_blank" rel="noopener noreferrer">指令<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>,可根据angular设定好的模版快速创建组件、模块、服务、管道等文件<br>
+将angular创建模版的功能抽离出来,自定义适用于系统的模版文件,运行命令读取配置数据即可快速创建文件完成开发。该模版生成功能适用于任何前端项目</p> <h2 id="示例"><a href="#示例" class="header-anchor">#</a> 示例</h2> <p>在vue前端项目创建自定义模版</p> <div class="language- extra-class"><pre><code>使用schematics编写自定义模版和处理逻辑  
+</code></pre></div><p><img src="https://raw.githubusercontent.com/Leemagination/projectIntroduction/master/images/generator1.png" alt="img1"></p> <div class="language- extra-class"><pre><code>填写配置文件并运行命令生成文件  
+</code></pre></div><p><img src="https://raw.githubusercontent.com/Leemagination/projectIntroduction/master/images/generator2.png" alt="img2"></p> <div class="language- extra-class"><pre><code>配置路由完成页面初步开发  
+</code></pre></div><p><img src="https://raw.githubusercontent.com/Leemagination/projectIntroduction/master/images/generator3.png" alt="img3"></p></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/projectIntroduction/miniprogram.html" class="prev">
+        微信提货小程序
+      </a></span> <span class="next"><a href="/projectIntroduction/print.html">
+        打印项目
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/projectIntroduction/assets/js/app.36ced9f6.js" defer></script><script src="/projectIntroduction/assets/js/2.e1411989.js" defer></script><script src="/projectIntroduction/assets/js/10.2c1e614e.js" defer></script>
+  </body>
+</html>
