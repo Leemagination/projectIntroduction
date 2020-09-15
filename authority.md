@@ -23,4 +23,4 @@ sidebarDepth: 0
     
     取消按钮权限
 ![img1](https://raw.githubusercontent.com/Leemagination/projectIntroduction/master/images/authority3.png)  
-![img1](https://raw.githubusercontent.com/Leemagination/projectIntroduction/master/images/authority7.jpg)
+![img1](https://raw.githubusercontent.com/Leemagination/projectIntroduction/master/images/authority2.jpg)
